@@ -1,0 +1,3 @@
+[submodule "wezterm"]
+	path = wezterm
+	url = https://github.com/colintran2205/wezterm.git
