@@ -1,0 +1,125 @@
+{
+  "redhat.telemetry.enabled": false,
+  "material-icon-theme.hidesExplorerArrows": true,
+  "files.eol": "\n",
+  "breadcrumbs.enabled": false,
+  "window.commandCenter": true,
+  "debug.toolBarLocation": "commandCenter",
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.editor.showTabs": "none",
+  "workbench.navigationControl.enabled": false,
+  "workbench.activityBar.location": "top",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "editor.background": "#1f1f1f"
+  },
+  "window.restoreWindows": "none",
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.lineNumbers": "relative",
+  "editor.formatOnSave": true,
+  "editor.autoClosingQuotes": "always",
+  "editor.autoIndent": "advanced",
+  "editor.codeActionsOnSave": {
+    "editor.insertSpaces": "never",
+    "source.fixAll": "always",
+    "source.organizeImports": "always",
+    "source.removeUnusedImports": "always",
+    "source.fixAll.eslint": "always",
+    "source.fixAll.tslint": "always"
+  },
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingComments": "always",
+  "editor.guides.indentation": false,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.bracketPairs": false,
+  "editor.guides.bracketPairsHorizontal": false,
+  "editor.inlayHints.padding": true,
+  "editor.linkedEditing": true,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 14,
+  "editor.fontWeight": "600",
+  "editor.lineHeight": 1.2,
+  "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09', 'ss10', 'liga'",
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.cursorBlinking": "smooth",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorWidth": 3,
+  "editor.tabCompletion": "on",
+  "terminal.integrated.cursorWidth": 3,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontWeight": "600",
+  "terminal.integrated.minimumContrastRatio": 1,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.gutterIconSet": "borderless",
+  "errorLens.gutterIconSize": "150%",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.inlayHints.enabled": "on"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.inlayHints.enabled": "on"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+  },
+  "notebook.formatOnSave.enabled": true,
+  "notebook.codeActionsOnSave": {
+    "notebook.source.fixAll": "explicit",
+    "notebook.source.organizeImports": "explicit"
+  },
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always",
+      "source.fixAll": "always"
+    },
+    "editor.tabSize": 2
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "go.lintTool": "golangci-lint",
+  "go.lintFlags": [
+    "--path-mode=abs",
+    "--fast-only"
+  ],
+  "go.formatTool": "custom",
+  "go.inlayHints.compositeLiteralFields": true,
+  "go.inlayHints.compositeLiteralTypes": true,
+  "go.inlayHints.functionTypeParameters": true,
+  "go.inlayHints.parameterNames": true,
+  "go.inlayHints.rangeVariableTypes": true,
+  "go.inlayHints.constantValues": true,
+  "go.diagnostic.vulncheck": "Imports",
+  "go.toolsEnvVars": {
+    "GOFLAGS": "-buildvcs=false"
+  },
+  "gopls": {
+    "ui.semanticTokens": true,
+  }
+}
