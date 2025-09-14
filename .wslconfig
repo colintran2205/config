@@ -1,0 +1,9 @@
+[wsl2]
+swap=0
+defaultVhdSize=16106127360
+nestedVirtualization=false
+guiApplications=false
+hardwarePerformanceCounters=false
+processors=4
+networkingMode=Mirrored
+memory=4294967296
